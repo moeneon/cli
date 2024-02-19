@@ -1,3 +1,3 @@
-const { run, git } = require('./util.js')
+const { run, curl } = require('./easycurl.h')
 
-run(git.dirty)
+run(curl.dirty)
